@@ -1,0 +1,338 @@
+@import "tailwindcss";
+
+body, html{
+    margin: 0px !important;
+    height: 100%;
+    width: 100%;
+    min-width: 350px;
+}
+
+.width{
+    width: 100%;
+}
+
+.height{
+    height: 100%;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.flex{
+    display: flex;
+}
+
+.logo-pizza{
+    width: 60px;
+}
+
+.logo-kebab{
+    width: 65px;
+}
+
+
+.close-container{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: end;
+    padding: 1rem;
+}
+
+.close-container-a{
+    width: 50px;
+}
+
+.close-icon{
+    width: 40px;
+}
+
+.black{
+    background-color: black;
+    position: fixed;
+    z-index: 5;
+    height: 100%;
+}
+#root{
+    height: 100%;
+    position: relative;
+}
+
+.menu-button-a{
+    top: 7.5rem;
+    display: flex;
+    position: fixed;
+    z-index: 5;
+}
+
+.menu-button-img{
+    position: fixed;
+    height: 150px;
+    z-index: 5;
+    right: 0;
+}
+
+.menu-container-logo{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    padding-top: 0px;
+    gap: 1em;
+}
+
+.menu-container-btn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.menu-btn{
+    border: none;
+    color: white;
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.language-selector-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.language-selector-btn{
+    border: none;
+    color: white;
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.language-selector-bar{
+    background-color: white;
+    width: 1px;
+    height: 28px;
+}
+
+.slide-button {
+    left: -100%;
+}
+
+.slide-button-back {
+    right: 0%;
+}
+
+.slide-menu{
+    left: 0%;
+}
+
+.slide-menu-back {
+    left: 100%;
+}
+
+
+.transition{
+    transition: left 0.5s ease;
+}
+
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E31E24;
+    padding: 0.5rem 0.3rem;
+    color: white;
+    height: 64px;
+    gap: 15px;
+    z-index: 1;
+    top: -78px;
+    transition: top 0.3s ease;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.show{
+    top: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+.page {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+
+.custom-checkbox-input {
+  display: none;
+}
+
+.custom-checkbox-text {
+  padding: 10px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 15px;
+  user-select: none;
+}
+
+.custom-checkbox-input:checked ~ .custom-checkbox-text {
+  background-color: white;
+  border: 1px solid white;
+}
+
+.toppings-checkbox-input{
+    display: none;
+}
+
+.toppings-checkbox-text{
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    user-select: none;
+}
+
+.toppings-checkbox-input:checked ~ .toppings-checkbox-text {
+  background-color: white;
+  border: 1px solid white;
+}
+
+.ingredients-checkbox-input:checked ~ .ingredients-checkbox-text {
+  text-decoration: line-through;
+}
+
+.size-radiobox-text{
+    padding: 0 15px 0 15px;
+    border: solid 1px black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height:30px;
+}
+
+.size-radiobox-input{
+    display: none;
+}
+
+
+.size-radiobox-input:checked + .size-radiobox-text {
+    border: 1px solid white;
+    background-color: white;
+}
+
+
+.delivery-container {
+    width: 144px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.delivery-logo {
+  scale: 125%;
+}
+
+.cart-container {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  width: 30px;
+  padding: 5px;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: white;
+  color: #c7362f;
+  border-radius: 50%;
+  padding: 0 5px;
+  font-size: 0.75rem;
+}
+
+.wheat{
+    background-color: wheat;
+}
+
+.landing-zone-container{
+    background-image: url("assets/background/Fonas.png");
+    background-size: 100% 100%;
+}
+
+.landing-zone-logo{
+    display: flex;
+    scale: 175%;
+    margin: auto;
+}
+
+.logo{
+    width: 120px !important;
+}
+
+.landing-zone-custom-pizza{
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.landing-zone-side-container{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.landing-zone-text{
+    text-align: left;
+    width: 100px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.landing-zone-custom-pizza-container{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.landing-zone-img{
+    width: 100px;
+}
+
+.landing-zone-logo-container{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+

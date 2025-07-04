@@ -1,0 +1,736 @@
+{
+  "footer":{
+    "time-text": "Darbo laikas",
+    "time": "11-23 val.",
+    "address": "Ukmergės g. 294, Vilnius",
+    "phone": "Tel.",
+    "email": "El. paštas"
+  },
+  "mix-pizza": "/src/assets/food/mix-pica.png",
+  "menu": "/src/assets/menu/menu mob LT.png",
+  "banner": "/src/assets/banner/Banner LT.png",
+  "navigation":{
+    "pizza":"Pica",
+    "pita":"Pita-Gyros",
+    "kebab":"Kebabai",
+    "snack":"Uzkandziai",
+    "drinks":"Gerimai",
+    "coffee":"Kava",
+    "ice-cream":"Ledai"
+  },
+  "kebab-text":"Kebabai",
+  "pita-text":"Pita-gyros",
+  "landing-zone":{
+    "mix-pizza": "Susikurk skaniausią"
+  },
+  "pita":[
+    {
+      "id": 0,
+      "title": ["Pyta-Gyros","su Vištiena"],
+      "ingredients": [
+        "Vištiena",
+        "Fri bulvytės",
+        "Pomidorai",
+        "Mėlynieji svogūnai",
+        "Padažas"
+      ],
+      "src": "/src/assets/food/pita/0.png",
+      "numberSrc": "/src/assets/food/number/1.png"
+    },
+    {
+      "id": 1,
+      "title": ["Pyta-Gyros","su Kiauliena"],
+      "ingredients": [
+        "Kiauliena",
+        "Fri bulvytės",
+        "Pomidorai",
+        "Mėlynieji svogūnai",
+        "Padažas"
+      ],
+      "src": "/src/assets/food/pita/0.png",
+      "numberSrc": "/src/assets/food/number/2.png"
+    }
+  ],
+  "kebab": [
+    {
+      "id": 0,
+      "title": ["Lavaše","su Vištiena"],
+      "ingredients": [
+        "Vištiena",
+        "Marnuoti agurkėliai",
+        "Mėlynieji svogūnai",
+        "Pomidorai",
+        "Kopūstai",
+        "Padažas"
+      ],
+      "src": "/src/assets/food/kebab/0.png",
+      "numberSrc": "/src/assets/food/number/1.png"
+    },
+    {
+      "id": 1,
+      "title": ["Lavaše","su Kiauliena"],
+      "ingredients": [
+        "Kiauliena",
+        "Marnuoti agurkėliai",
+        "Mėlynieji svogūnai",
+        "Pomidorai",
+        "Kopūstai",
+        "Padažas"
+      ],
+      "src": "/src/assets/food/kebab/0.png",
+      "numberSrc": "/src/assets/food/number/2.png"
+    },
+    {
+      "id": 2,
+      "title": ["Tortilijoje","su Vištiena"],
+      "ingredients": [
+        "Vištiena",
+        "Marnuoti agurkėliai",
+        "Mėlynieji svogūnai",
+        "Pomidorai",
+        "Kopūstai",
+        "Padažas"
+      ],
+      "src": "/src/assets/food/kebab/1.png",
+      "numberSrc": "/src/assets/food/number/3.png"
+    },
+    {
+      "id": 3,
+      "title": ["Tortilijoje","su Kiauliena"],
+      "ingredients": [
+        "Kiauliena",
+        "Marnuoti agurkėliai",
+        "Mėlynieji svogūnai",
+        "Pomidorai",
+        "Kopūstai",
+        "Padažas"
+      ],
+      "src": "/src/assets/food/kebab/1.png",
+      "numberSrc": "/src/assets/food/number/4.png"
+    }
+  ],
+  "snacks":[
+    {
+      "id": 0,
+      "title": ["Kebab lekštėje"],
+      "ingredients": [
+        "Vištiena",
+        "Kiauliena",
+        "Fri bulvytės",
+        "Švieži agurkai",
+        "Marnuoti agurkėliai",
+        "Mėlynieji svogūnai",
+        "Pomidorai",
+        "Padažas"
+      ],
+      "src": "/src/assets/food/snacks/0.png"
+    },
+    {
+      "id": 1,
+      "title": ["Nuggets"],
+      "src": "/src/assets/food/snacks/1.png"
+    },
+    {
+      "id": 2,
+      "title": ["Fri bulvytės"],
+      "src": "/src/assets/food/snacks/2.png"
+    }
+  ],
+  "coffee":[
+    {
+      "id": 0,
+      "title": ["Kava"],
+      "src": "/src/assets/food/coffee/0.png"
+    }
+  ],
+  "ice-cream":[
+    {
+      "id": 0,
+      "title": ["Ledai","ragelyje"],
+      "src": "/src/assets/food/ice-cream/0.png"
+    },
+    {
+      "id": 1,
+      "title": ["Ledai","indelyje"],
+      "src": "/src/assets/food/ice-cream/1.png"
+    },
+    {
+      "id": 2,
+      "title": ["Ledai indelyje","su uogiene"],
+      "src": "/src/assets/food/ice-cream/2.png"
+    }
+  ],
+  "drinks":[
+    {
+      "id": 0,
+      "title": ["Citrinų skonio","gaivusis gėrimas","400 ml"],
+      "src": "/src/assets/food/drinks/0.png"
+    },
+    {
+      "id": 1,
+      "title": ["Braškių skonio","gaivusis gėrimas","400 ml"],
+      "src": "/src/assets/food/drinks/0.png"
+    },
+    {
+      "id": 2,
+      "title": ["Vyšnių skonio","gaivusis gėrimas","400 ml"],
+      "src": "/src/assets/food/drinks/0.png"
+    },
+    {
+      "id": 3,
+      "title": ["Norte negazuotas","vanduo, 0,5 l"],
+      "src": "/src/assets/food/drinks/1.png"
+    },
+    {
+      "id": 4,
+      "title": ["Norte gazuotas","vanduo, 0,5 l"],
+      "src": "/src/assets/food/drinks/2.png"
+    },
+    {
+      "id": 5,
+      "title":["Pepsi","0,5 l"],
+      "src": "/src/assets/food/drinks/3.png"
+    },
+    {
+      "id": 6,
+      "title":["Mirinda","0,5 l"],
+      "src": "/src/assets/food/drinks/4.png"
+    },
+    {
+      "id": 7,
+      "title":["7Up","0,5 l"],
+      "src": "/src/assets/food/drinks/5.png"
+    }
+  ],
+  "title-pizza":[
+  "su Virtu kumpiu",
+  "su Vištienos filė",
+  "su Rūkyta šonine",
+  "su Malta kiauliena",
+  "su Krevetėmis",
+  "Vegetariška",
+  "su Rūkytu saliamiu",
+  "su Rūkyta jautiena"
+  ],
+  "sauce": {
+    "sauce": "Padažas",
+    "garlic": "Česnakinis",
+    "spicy": "Pikantiškas",
+    "hot" : "Aštrus",
+    "bbq": "BBQ",
+    "ketchup": "Ketčupas",
+    "mix": "Mix"
+  },
+  "size": {
+    "snack": "Snack",
+    "30cm": "30 cm",
+    "40cm": "40 cm",
+    "small": "Mažas",
+    "medium": "Vidutinis",
+    "large": "Didelis",
+    "xl": "XL",
+    "chicken": "Vištiena",
+    "pork": "Kiauliena",
+    "4pieces": "4 vnt.",
+    "6pieces": "6 vnt.",
+    "12pieces": "12 vnt.",
+    "300ml": "300 ml",
+    "400ml": "400 ml"
+  },
+  "toppings": "Priedai",
+  "toppings-left-pita-kebab": [
+    {
+      "id": 0,
+      "topping": "Vištiena"
+    },
+    {
+      "id": 1,
+      "topping": "Mozzarella"
+    },
+    {
+      "id": 2,
+      "topping": "Jelapenai"
+    }
+  ],
+  "toppings-left": [
+    {
+      "id": 0,
+      "topping": "Mozzarella sūris"
+    },
+    {
+      "id": 1,
+      "topping": "Virtas kumpis"
+    },
+    {
+      "id": 2,
+      "topping": "Saliamis"
+    },
+    {
+      "id": 3,
+      "topping": "Šoninė"
+    },
+    {
+      "id": 4,
+      "topping": "Malta mėsa"
+    },
+    {
+      "id": 5,
+      "topping": "Jautienos kumpeliai"
+    },
+    {
+      "id": 6,
+      "topping": "Vištiena"
+    },
+    {
+      "id": 7,
+      "topping": "Krevetės"
+    }
+  ],
+  "coffee-type":[
+    "Latte",
+    "Latte šalta",
+    "Cappuccino",
+    "Cappuccino šalta",
+    "Mocha",
+    "Mocha šalta",
+    "Kava su pienu",
+    "Kava su pienu šalta",
+    "Flat White",
+    "Irish Cappuccino",
+    "Juoda kava",
+    "Espresso",
+    "Espeesso dviguba",
+    "Choco gėrimas",
+    "Choco šaltas",
+    "Arbata"
+  ],
+  "toppings-dish-kebab":{
+    "chicken": "Vištiena",
+    "jalapeno": "Jelapenai"
+  },
+  "toppings-right-pita-kebab": [
+    {
+      "id": 0,
+      "topping": "Česnakinis padažas"
+    },
+    {
+      "id": 1,
+      "topping": "Pikantiškas padažas"
+    },
+    {
+      "id": 2,
+      "topping": "Aštrus padažas"
+    },
+    {
+      "id": 3,
+      "topping": "Mix padažas"
+    }
+  ],
+  "toppings-right": [
+    {
+      "id": 8,
+      "topping": "Pievagrybiai"
+    },
+    {
+      "id": 9,
+      "topping": "Paprika"
+    },
+    {
+      "id": 10,
+      "topping": "Porai"
+    },
+    {
+      "id": 11,
+      "topping": "Pomidorai vyšniniai"
+    },
+    {
+      "id": 12,
+      "topping": "Baklažanai"
+    },
+    {
+      "id": 13,
+      "topping": "Svogūnai mėlynieji"
+    },
+    {
+      "id": 14,
+      "topping": "Ananasai"
+    },
+    {
+      "id": 15,
+      "topping": "Alyvuogės"
+    },
+    {
+      "id": 16,
+      "topping": "Agurkai"
+    },
+    {
+      "id": 17,
+      "topping": "Svogūnėliai"
+    },
+    {
+      "id": 18,
+      "topping": "Džiovinti pomidorai"
+    },
+    {
+      "id": 19,
+      "topping": "Brokoliai"
+    },
+    {
+      "id": 20,
+      "topping": "Jelapenai"
+    },
+    {
+      "id": 21,
+      "topping": "Bazilikas"
+    },
+    {
+      "id": 22,
+      "topping": "Špinatai"
+    },
+    {
+      "id": 23,
+      "topping": "Rukola"
+    },
+    {
+      "id": 24,
+      "topping": "Rūkytas sūris"
+    }
+  ],
+  "pizza": [
+    {
+      "id": 0,
+      "title": ["Paprika", "Alyvuogės", "Rūkytas sūris"],
+      "ingredients": [
+        "Virtas kumpis",
+        "Paprika",
+        "Alyvuogės",
+        "Rūkytas sūris",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/0.png",
+      "numberSrc": "/src/assets/food/number/1.png"
+    },
+    {
+      "id": 1,
+      "title": ["Mėlynieji svogūnai", "Vyšniniai pomidorai", "Šviežias bazilikas"],
+      "ingredients": [
+        "Virtas kumpis",
+        "Mėlynieji svogūnai",
+        "Vyšniniai pomidorai",
+        "Šviežias bazilikas",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/1.png",
+      "numberSrc": "/src/assets/food/number/2.png"
+    },
+    {
+      "id": 2,
+      "title": ["Pievagrybiai", "Mėlynieji svogūnai", "Brokoliai"],
+      "ingredients": [
+        "Virtas kumpis",
+        "Pievagrybiai",
+        "Mėlynieji svogūnai",
+        "Brokoliai",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/2.png",
+      "numberSrc": "/src/assets/food/number/3.png"
+    },
+    {
+      "id": 3,
+      "title": ["Paprika", "Ananasai", "Šviežias bazilikas"],
+      "ingredients": [
+        "Vištienos filė",
+        "Paprika",
+        "Ananasai",
+        "Šviežias bazilikas",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/3.png",
+      "numberSrc": "/src/assets/food/number/4.png"
+    },
+    {
+      "id": 4,
+      "title": ["Pievagrybiai", "Porai", "Brokoliai"],
+      "ingredients": [
+        "Vištienos filė",
+        "Pievagrybiai",
+        "Porai",
+        "Brokoliai",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/4.png",
+      "numberSrc": "/src/assets/food/number/5.png"
+    },
+    {
+      "id": 5,
+      "title": ["Alyvuogės", "Džiovinti pomidorai", "Špinatai"],
+      "ingredients": [
+        "Vištienos filė",
+        "Alyvuogės",
+        "Džiovinti pomidorai",
+        "Špinatai",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/5.png",
+      "numberSrc": "/src/assets/food/number/6.png"
+    },
+    {
+      "id": 6,
+      "title": ["Pievagrybiai", "Kepti baklažanai", "Paprika"],
+      "ingredients": [
+        "Rūkyta šoninė",
+        "Pievagrybiai",
+        "Kepti baklažanai",
+        "Paprika",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/6.png",
+      "numberSrc": "/src/assets/food/number/7.png"
+    },
+    {
+      "id": 7,
+      "title": ["Vyšniniai pomidorai", "Mėlynieji svogūnai", "Rukola"],
+      "ingredients": [
+        "Rūkyta šoninė",
+        "Vyšniniai pomidorai",
+        "Mėlynieji svogūnai",
+        "Rukola",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/7.png",
+      "numberSrc": "/src/assets/food/number/8.png"
+    },
+    {
+      "id": 8,
+      "title": ["Porai", "Špinatai", "Rūkytas sūris"],
+      "ingredients": [
+        "Rūkyta šoninė",
+        "Porai",
+        "Špinatai",
+        "Rūkytas sūris",
+        "Plaktas kiaušinis",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/8.png",
+      "numberSrc": "/src/assets/food/number/9.png"
+    },
+    {
+      "id": 9,
+      "title": ["Kepti baklažanai", "Paprika", "Porai"],
+      "ingredients": [
+        "Malta kiauliena",
+        "Kepti baklažanai",
+        "Paprika",
+        "Porai",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/9.png",
+      "numberSrc": "/src/assets/food/number/10.png"
+    },
+    {
+      "id": 10,
+      "title": ["Alyvuogės", "Rukola", "Vyšniniai pomidorai"],
+      "ingredients": [
+        "Malta kiauliena",
+        "Alyvuogės",
+        "Rukola",
+        "Vyšniniai pomidorai",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/10.png",
+      "numberSrc": "/src/assets/food/number/11.png"
+    },
+    {
+      "id": 11,
+      "title": ["Pievagrybiai", "Alyvuogės", "Paprika", "Mėlynieji svogūnai"],
+      "ingredients": [
+        "Malta kiauliena",
+        "Pievagrybiai",
+        "Alyvuogės",
+        "Paprika",
+        "Mėlynieji svogūnai",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/11.png",
+      "numberSrc": "/src/assets/food/number/12.png"
+    },
+    {
+      "id": 12,
+      "title": ["Špinatai", "Alyvuogės", "Mėlynieji svogūnai"],
+      "ingredients": [
+        "Krevetės",
+        "Špinatai",
+        "Alyvuogės",
+        "Mėlynieji svogūnai",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/12.png",
+      "numberSrc": "/src/assets/food/number/13.png"
+    },
+    {
+      "id": 13,
+      "title": ["Rukola", "Džiovinti pomidorai", "Mėlynieji svogūnai"],
+      "ingredients": [
+        "Krevetės",
+        "Rukola",
+        "Džiovinti pomidorai",
+        "Mėlynieji svogūnai",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/13.png",
+      "numberSrc": "/src/assets/food/number/14.png"
+    },
+    {
+      "id": 14,
+      "title": ["Vyšniniai pomidorai", "Rūkytas sūris", "Paprika"],
+      "ingredients": [
+        "Krevetės",
+        "Vyšniniai pomidorai",
+        "Rūkytas sūris",
+        "Paprika",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/14.png",
+      "numberSrc": "/src/assets/food/number/15.png"
+    },
+    {
+      "id": 15,
+      "title": ["Pievagrybiai", "Špinatai", "Mėlynieji svogūnai"],
+      "ingredients": [
+        "Pievagrybiai",
+        "Špinatai",
+        "Mėlynieji svogūnai",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/15.png",
+      "numberSrc": "/src/assets/food/number/16.png"
+    },
+    {
+      "id": 16,
+      "title": ["Vyšniniai pomidorai", "Šviežias bazilikas"],
+      "ingredients": [
+        "Vyšniniai pomidorai",
+        "Šviežias bazilikas",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/16.png",
+      "numberSrc": "/src/assets/food/number/17.png"
+    },
+    {
+      "id": 17,
+      "title": ["Baklažanai", "Džiovinti pomidorai", "Mėlynieji svogūnai"],
+      "ingredients": [
+        "Baklažanai",
+        "Džiovinti pomidorai",
+        "Mėlynieji svogūnai",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/17.png",
+      "numberSrc": "/src/assets/food/number/18.png"
+    },
+    {
+      "id": 18,
+      "title": ["Pievagrybiai", "Agurkėliai", "Rūkytas sūris"],
+      "ingredients": [
+        "Rūkytas saliamis",
+        "Pievagrybiai",
+        "Agurkėliai",
+        "Rūkytas sūris",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/18.png",
+      "numberSrc": "/src/assets/food/number/19.png"
+    },
+    {
+      "id": 19,
+      "title": ["Vyšniniai pomidorai", "Svogūnėliai", "Agurkėliai"],
+      "ingredients": [
+        "Rūkytas saliamis",
+        "Vyšniniai pomidorai",
+        "Svogūnėliai",
+        "Agurkėliai",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/19.png",
+      "numberSrc": "/src/assets/food/number/20.png"
+    },
+    {
+      "id": 20,
+      "title": ["Porai", "Alyvuogės", "Svogūnėliai"],
+      "ingredients": [
+        "Rūkytas saliamis",
+        "Porai",
+        "Alyvuogės",
+        "Svogūnėliai",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/20.png",
+      "numberSrc": "/src/assets/food/number/21.png"
+    },
+    {
+      "id": 21,
+      "title": ["Mėlynieji svogūnai", "Pievagrybiai", "Agurkėliai"],
+      "ingredients": [
+        "Rūkyta jautiena",
+        "Mėlynieji svogūnai",
+        "Pievagrybiai",
+        "Agurkėliai",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/21.png",
+      "numberSrc": "/src/assets/food/number/22.png"
+    },
+    {
+      "id": 22,
+      "title": ["Porai", "Paprika", "Svogūnėliai"],
+      "ingredients": [
+        "Rūkyta jautiena",
+        "Porai",
+        "Paprika",
+        "Svogūnėliai",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/22.png",
+      "numberSrc": "/src/assets/food/number/23.png"
+    },
+    {
+      "id": 23,
+      "title": ["Mėlynieji svogūnai", "Vyšniniai pomidorai", "Alyvuogės"],
+      "ingredients": [
+        "Rūkyta jautiena",
+        "Mėlynieji svogūnai",
+        "Vyšniniai pomidorai",
+        "Alyvuogės",
+        "Mozzarella",
+        "Pomidorų padažas"
+      ],
+      "src": "/src/assets/food/phone/pizza/23.png",
+      "numberSrc": "/src/assets/food/number/24.png"
+    }
+  ]
+
+}

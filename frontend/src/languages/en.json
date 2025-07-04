@@ -1,0 +1,731 @@
+{
+  "footer":{
+    "time-text": "Working hours",
+    "time": "11-23h",
+    "address": "Ukmergės g. 294, Vilnius",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "mix-pizza": "/src/assets/food/mix-pizza.png",
+  "menu": "/src/assets/menu/menu mob EN.png",
+  "banner": "/src/assets/banner/Banner EN.png",
+  "navigation":{
+    "pizza":"Pizza",
+    "pita":"Pita-Gyros",
+    "kebab":"Kebab",
+    "snack":"Snack",
+    "drinks":"Drinks",
+    "coffee":"Coffee",
+    "ice-cream":"Ice Cream"
+  },
+  "kebab-text":"Kebab",
+  "pita-text":"Pita-gyros",
+  "landing-zone":{
+    "mix-pizza": "Create the most delicious"
+  },
+  "pita":[
+    {
+      "id": 0,
+      "title": ["Pyta-Gyros","with Chicken"],
+      "ingredients": [
+        "Chicken",
+        "French fries",
+        "Tomatoes",
+        "Blue onions",
+        "Sauce"
+      ],
+      "src": "/src/assets/food/pita/0.png",
+      "numberSrc": "/src/assets/food/number/1.png"
+    },
+    {
+      "id": 1,
+      "title": ["Pyta-Gyros","with Pork"],
+      "ingredients": [
+        "Pork",
+        "French fries",
+        "Tomatoes",
+        "Blue onions",
+        "Sauce"
+      ],
+      "src": "/src/assets/food/pita/0.png",
+      "numberSrc": "/src/assets/food/number/2.png"
+    }
+  ],
+  "kebab": [
+    {
+      "id": 0,
+      "title": ["In Lavash", "with Chicken"],
+      "ingredients": [
+        "Chicken",
+        "Pickles",
+        "Blue onions",
+        "Tomatoes",
+        "Cabbage",
+        "Sauce"
+      ],
+      "src": "/src/assets/food/phone/kebab/0.png",
+      "numberSrc": "/src/assets/food/number/1.png"
+    },
+    {
+      "id": 1,
+      "title": ["In Lavash", "with Pork"],
+      "ingredients": [
+        "Pork",
+        "Pickles",
+        "Blue onions",
+        "Tomatoes",
+        "Cabbage",
+        "Sauce"
+      ],
+      "src": "/src/assets/food/phone/kebab/0.png",
+      "numberSrc": "/src/assets/food/number/2.png"
+    },
+    {
+      "id": 2,
+      "title": ["In Tortilla", "with Chicken"],
+      "ingredients": [
+        "Chicken",
+        "Pickles",
+        "Blue onions",
+        "Tomatoes",
+        "Cabbage",
+        "Sauce"
+      ],
+      "src": "/src/assets/food/phone/kebab/1.png",
+      "numberSrc": "/src/assets/food/number/3.png"
+    },
+    {
+      "id": 3,
+      "title": ["In Tortilla", "with Pork"],
+      "ingredients": [
+        "Pork",
+        "Pickles",
+        "Blue onions",
+        "Tomatoes",
+        "Cabbage",
+        "Sauce"
+      ],
+      "src": "/src/assets/food/phone/kebab/1.png",
+      "numberSrc": "/src/assets/food/number/4.png"
+    }
+  ],
+  "snacks":[
+    {
+      "id": 0,
+      "title": ["Kebab plate"],
+      "ingredients": [
+        "Chicken",
+        "Pork",
+        "French fries",
+        "Fresh cucumbers",
+        "Pickles",
+        "Blue onions",
+        "Tomatoes",
+        "Sauce"
+      ],
+      "src": "/src/assets/food/snacks/0.png"
+    },
+    {
+      "id": 1,
+      "title": ["Nuggets"],
+      "src": "/src/assets/food/snacks/1.png"
+    },
+    {
+       "id": 2,
+      "title": ["French fries"],
+      "src": "/src/assets/food/snacks/2.png"
+    }
+  ],
+  "coffee": [
+    {
+      "id": 0,
+      "title": ["Coffee"],
+      "src": "/src/assets/food/coffee/0.png"
+    }
+  ],
+  "ice-cream": [
+    {
+      "id": 0,
+      "title": ["Ice cream", "with waffel"],
+      "src": "/src/assets/food/ice-cream/0.png"
+    },
+    {
+      "id": 1,
+      "title": ["Ice cream", "in a jar"],
+      "src": "/src/assets/food/ice-cream/1.png"
+    },
+    {
+      "id": 2,
+      "title": ["Ice cream in a jar", "with jam"],
+      "src": "/src/assets/food/ice-cream/2.png"
+    }
+  ],
+  "drinks": [
+    {
+      "id": 0,
+      "title": ["Lemon-flavoured soft drink", "400 ml"],
+      "src": "/src/assets/food/drinks/0.png"
+    },
+    {
+      "id": 1,
+      "title": ["Strawberry-flavoured soft drink", "400 ml"],
+      "src": "/src/assets/food/drinks/0.png"
+    },
+    {
+      "id": 2,
+      "title": ["Cherry-flavoured soft drink", "400 ml"],
+      "src": "/src/assets/food/drinks/0.png"
+    },
+    {
+      "id": 3,
+      "title": ["Norte still water", "0.5 l"],
+      "src": "/src/assets/food/drinks/1.png"
+    },
+    {
+      "id": 4,
+      "title": ["Norte carbonated water", "0.5 l"],
+      "src": "/src/assets/food/drinks/2.png"
+    },
+    {
+      "id": 5,
+      "title": ["Pepsi", "0.5 l"],
+      "src": "/src/assets/food/drinks/3.png"
+    },
+    {
+      "id": 6,
+      "title": ["Mirinda", "0.5 l"],
+      "src": "/src/assets/food/drinks/4.png"
+    },
+    {
+      "id": 7,
+      "title": ["7Up", "0.5 l"],
+      "src": "/src/assets/food/drinks/5.png"
+    }
+  ],
+  "title-pizza": [
+  "with Boiled Ham",
+  "with Chicken fillet",
+  "with Smoked Bacon",
+  "with Minced pork",
+  "with Shrimps",
+  "Vegetarian",
+  "with Smoked Salami",
+  "with Smoked Beef"
+  ],
+  "sauce": {
+    "sauce": "Sauce",
+    "garlic": "Garlic",
+    "spicy": "Spicy",
+    "hot" : "Hot",
+    "bbq": "BBQ",
+    "ketchup": "Ketchup",
+    "mix": "Mix"
+  },
+  "size": {
+    "snack": "Snack",
+    "30cm": "30 cm",
+    "40cm": "40 cm",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "xl": "XL",
+    "chicken": "Chicken",
+    "pork": "Pork",
+    "4pieces": "4 pc.",
+    "6pieces": "6 pc.",
+    "12pieces": "12 pc.",
+    "300ml": "300 ml",
+    "400ml": "400 ml"
+  },
+  "toppings": "Toppings",
+  "toppings-left-pita": [
+    {
+      "id": 0,
+      "topping": "Chicken"
+    },
+    {
+      "id": 1,
+      "topping": "Mozzarella"
+    },
+    {
+      "id": 2,
+      "topping": "Jalapeno"
+    }
+  ],
+  "toppings-left": [
+    {
+      "id": 0,
+      "topping": "Mozzarella"
+    },
+    {
+      "id": 1,
+      "topping": "Boiled ham"
+    },
+    {
+      "id": 2,
+      "topping": "Salami"
+    },
+    {
+      "id": 3,
+      "topping": "Bacon"
+    },
+    {
+      "id": 4,
+      "topping": "Minced meat"
+    },
+    {
+      "id": 5,
+      "topping": "Beef hams"
+    },
+    {
+      "id": 6,
+      "topping": "Chicken"
+    },
+    {
+      "id": 7,
+      "topping": "Shrimps"
+    }
+  ],
+  "coffee-type":[
+    "Latte",
+    "Iced Latte",
+    "Cappuccino",
+    "Iced Cappuccino",
+    "Mocha",
+    "Iced Mocha",
+    "Coffee with milk",
+    "Cold Coffee with milk",
+    "Flat White",
+    "Irish Cappuccino",
+    "Black Coffee",
+    "Espresso",
+    "Double Espresso",
+    "Choco drink",
+    "Cold Choco",
+    "Tea"
+  ],
+  "toppings-right-pita": [
+    {
+      "id": 0,
+      "topping": "Garlic sauce"
+    },
+    {
+      "id": 1,
+      "topping": "Spicy sauce"
+    },
+    {
+      "id": 2,
+      "topping": "Hot sauce"
+    },
+    {
+      "id": 3,
+      "topping": "Mix sauce"
+    }
+  ],
+  "toppings-right": [
+    {
+      "id": 8,
+      "topping": "Mushrooms"
+    },
+    {
+      "id": 9,
+      "topping": "Pepper"
+    },
+    {
+      "id": 10,
+      "topping": "Leeks"
+    },
+    {
+      "id": 11,
+      "topping": "Tomatoes cherry"
+    },
+    {
+      "id": 12,
+      "topping": "Eggplant"
+    },
+    {
+      "id": 13,
+      "topping": "Onion blue"
+    },
+    {
+      "id": 14,
+      "topping": "Pineapple"
+    },
+    {
+      "id": 15,
+      "topping": "Olives"
+    },
+    {
+      "id": 16,
+      "topping": "Cucumbers"
+    },
+    {
+      "id": 17,
+      "topping": "Canned onions"
+    },
+    {
+      "id": 18,
+      "topping": "Dried tomatoes"
+    },
+    {
+      "id": 19,
+      "topping": "Broccoli"
+    },
+    {
+      "id": 20,
+      "topping": "Jalapeno"
+    },
+    {
+      "id": 21,
+      "topping": "Basilica"
+    },
+    {
+      "id": 22,
+      "topping": "Spinach"
+    },
+    {
+      "id": 23,
+      "topping": "Arugula"
+    },
+    {
+      "id": 24,
+      "topping": "Smoked cheese"
+    }
+  ],
+  "pizza": [
+    {
+      "id": 0,
+      "title": ["Pepper", "Olives", "Smoked cheese"],
+      "ingredients": [
+        "Boiled ham",
+        "Pepper",
+        "Olives",
+        "Smoked cheese",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/0.png",
+      "numberSrc": "/src/assets/food/number/1.png"
+    },
+    {
+      "id": 1,
+      "title": ["Blue onions", "Cherry tomatoes", "Fresh basil"],
+      "ingredients": [
+        "Boiled ham",
+        "Blue onions",
+        "Cherry tomatoes",
+        "Fresh basil",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/1.png",
+      "numberSrc": "/src/assets/food/number/2.png"
+    },
+    {
+      "id": 2,
+      "title": ["Mushrooms", "Blue onions", "Broccoli"],
+      "ingredients": [
+        "Boiled ham",
+        "Mushrooms",
+        "Blue onions",
+        "Broccoli",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/2.png",
+      "numberSrc": "/src/assets/food/number/3.png"
+    },
+    {
+      "id": 3,
+      "title": ["Pepper", "Pineapple", "Fresh basil"],
+      "ingredients": [
+        "Chicken fillet",
+        "Pepper",
+        "Pineapple",
+        "Fresh basil",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/3.png",
+      "numberSrc": "/src/assets/food/number/4.png"
+    },
+    {
+      "id": 4,
+      "title": ["Mushrooms", "Leeks", "Broccoli"],
+      "ingredients": [
+        "Chicken fillet",
+        "Mushrooms",
+        "Leeks",
+        "Broccoli",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/4.png",
+      "numberSrc": "/src/assets/food/number/5.png"
+    },
+    {
+      "id": 5,
+      "title": ["Olives", "Dried tomatoes", "Spinach"],
+      "ingredients": [
+        "Chicken fillet",
+        "Olives",
+        "Dried tomatoes",
+        "Spinach",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/5.png",
+      "numberSrc": "/src/assets/food/number/6.png"
+    },
+    {
+      "id": 6,
+      "title": ["Mushrooms", "Baked eggplants", "Pepper"],
+      "ingredients": [
+        "Smoked bacon",
+        "Mushrooms",
+        "Baked eggplants",
+        "Pepper",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/6.png",
+      "numberSrc": "/src/assets/food/number/7.png"
+    },
+    {
+      "id": 7,
+      "title": ["Cherry tomatoes", "Blue onions", "Arugula"],
+      "ingredients": [
+        "Smoked bacon",
+        "Cherry tomatoes",
+        "Blue onions",
+        "Arugula",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/7.png",
+      "numberSrc": "/src/assets/food/number/8.png"
+    },
+    {
+      "id": 8,
+      "title": ["Leeks", "Spinach", "Smoked cheese"],
+      "ingredients": [
+        "Smoked bacon",
+        "Leeks",
+        "Spinach",
+        "Smoked cheese",
+        "Scrambled egg",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/8.png",
+      "numberSrc": "/src/assets/food/number/9.png"
+    },
+    {
+      "id": 9,
+      "title": ["Baked eggplants", "Pepper", "Leeks"],
+      "ingredients": [
+        "Minced pork",
+        "Baked eggplants",
+        "Pepper",
+        "Leeks",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/9.png",
+      "numberSrc": "/src/assets/food/number/10.png"
+    },
+    {
+      "id": 10,
+      "title": ["Olives", "Arugula", "Cherry tomatoes"],
+      "ingredients": [
+        "Minced pork",
+        "Olives",
+        "Arugula",
+        "Cherry tomatoes",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/10.png",
+      "numberSrc": "/src/assets/food/number/11.png"
+    },
+    {
+      "id": 11,
+      "title": ["Mushrooms", "Olives", "Pepper", "Blue onions"],
+      "ingredients": [
+        "Minced pork",
+        "Mushrooms",
+        "Olives",
+        "Pepper",
+        "Blue onions",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/11.png",
+      "numberSrc": "/src/assets/food/number/12.png"
+    },
+    {
+      "id": 12,
+      "title": ["Spinach", "Olives", "Blue onions"],
+      "ingredients": [
+        "Shrimps",
+        "Spinach",
+        "Olives",
+        "Blue onions",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/12.png",
+      "numberSrc": "/src/assets/food/number/13.png"
+    },
+    {
+      "id": 13,
+      "title": ["Arugula", "Dried tomatoes", "Blue onions"],
+      "ingredients": [
+        "Shrimps",
+        "Arugula",
+        "Dried tomatoes",
+        "Blue onions",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/13.png",
+      "numberSrc": "/src/assets/food/number/14.png"
+    },
+    {
+      "id": 14,
+      "title": ["Cherry tomatoes", "Smoked cheese", "Pepper"],
+      "ingredients": [
+        "Shrimps",
+        "Cherry tomatoes",
+        "Smoked cheese",
+        "Pepper",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/14.png",
+      "numberSrc": "/src/assets/food/number/15.png"
+    },
+    {
+      "id": 15,
+      "title": ["Mushrooms", "Spinach", "Blue onions"],
+      "ingredients": [
+        "Mushrooms",
+        "Spinach",
+        "Blue onions",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/15.png",
+      "numberSrc": "/src/assets/food/number/16.png"
+    },
+    {
+      "id": 16,
+      "title": ["Cherry tomatoes", "Fresh basil"],
+      "ingredients": [
+        "Cherry tomatoes",
+        "Fresh basil",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/16.png",
+      "numberSrc": "/src/assets/food/number/17.png"
+    },
+    {
+      "id": 17,
+      "title": ["Eggplant", "Dried tomatoes", "Blue onions"],
+      "ingredients": [
+        "Eggplant",
+        "Dried tomatoes",
+        "Blue onions",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/17.png",
+      "numberSrc": "/src/assets/food/number/18.png"
+    },
+    {
+      "id": 18,
+      "title": ["Mushrooms", "Cucumbers", "Smoked cheese"],
+      "ingredients": [
+        "Smoked salami",
+        "Mushrooms",
+        "Cucumbers",
+        "Smoked cheese",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/18.png",
+      "numberSrc": "/src/assets/food/number/19.png"
+    },
+    {
+      "id": 19,
+      "title": ["Cherry tomatoes", "Canned onions", "Cucumbers"],
+      "ingredients": [
+        "Smoked salami",
+        "Cherry tomatoes",
+        "Canned onions",
+        "Cucumbers",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/19.png",
+      "numberSrc": "/src/assets/food/number/20.png"
+    },
+    {
+      "id": 20,
+      "title": ["Leeks", "Olives", "Canned onions"],
+      "ingredients": [
+        "Smoked salami",
+        "Leeks",
+        "Olives",
+        "Canned onions",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/20.png",
+      "numberSrc": "/src/assets/food/number/21.png"
+    },
+    {
+      "id": 21,
+      "title": ["Blue onions", "Mushrooms", "Cucumbers"],
+      "ingredients": [
+        "Smoked beef",
+        "Blue onions",
+        "Mushrooms",
+        "Cucumbers",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/21.png",
+      "numberSrc": "/src/assets/food/number/22.png"
+    },
+    {
+      "id": 22,
+      "title": ["Leeks", "Pepper", "Canned onions"],
+      "ingredients": [
+        "Smoked beef",
+        "Leeks",
+        "Pepper",
+        "Canned onions",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/22.png",
+      "numberSrc": "/src/assets/food/number/23.png"
+    },
+    {
+      "id": 23,
+      "title": ["Blue onions", "Cherry tomatoes", "Olives"],
+      "ingredients": [
+        "Smoked beef",
+        "Blue onions",
+        "Cherry tomatoes",
+        "Olives",
+        "Mozzarella",
+        "Tomato sauce"
+      ],
+      "src": "/src/assets/food/phone/pizza/23.png",
+      "numberSrc": "/src/assets/food/number/24.png"
+    }
+  ]
+}
